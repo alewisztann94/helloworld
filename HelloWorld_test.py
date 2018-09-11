@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_isgt_gt(self):
         hw = HelloWorld()
-        self.assertTrue(hw.isgt(4, 3))
+        self.assertTrue(hw.isgt(2, 3))
 
     def test_isgt_notnumber(self):
         hw = HelloWorld()
